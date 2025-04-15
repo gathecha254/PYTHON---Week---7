@@ -1,0 +1,23 @@
+Task 1: Load and Explore:
+The dataset includes 1,000 sales records with columns such as order_id, order_date, and total_price (task1_head.png). For example, an Electronics order on 2024-04-12 had a total price of $126.98.
+
+Data types are appropriate: order_date is datetime, unit_price and total_price are floats (task1_info.png).
+
+Initially, 10 unit_price and 5 region values were missing (task1_missing_before.png). These were filled with the mean ($104.77) and mode, respectively, leaving no missing values (task1_missing_after.png).
+
+Task 2: Basic Analysis:
+The average total_price is $533.18, with a maximum of $1,799.46, indicating some high-value sales (task2_stats.png).
+
+Electronics has the highest average sale at $564.20, while Clothing is lowest at $503.38 (task2_groups.png).
+
+Average quantities are stable (~4.9–5.2 units), suggesting unit_price variations drive differences in total_price.
+
+Task 3: Visualizations:
+The line chart (plot1_line_screenshot.png) shows monthly sales trends for 2024, likely with fluctuations due to random date distribution.
+
+The bar chart (plot2_bar_screenshot.png) highlights Electronics as the top category, confirming the group means.
+
+The histogram (plot3_histogram_screenshot.png) indicates most sales are below $500, with a right skew due to larger orders.
+
+The scatter plot (plot4_scatter_screenshot.png) shows no strong correlation between unit_price and quantity, with categories mixed.
+
